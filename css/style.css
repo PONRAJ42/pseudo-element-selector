@@ -1,0 +1,20 @@
+/*pseudo element selection*/
+p::first-line{
+   color:blue;
+}
+h2::first-letter{
+   color:pink;
+}
+h3::after {
+	content:url(../image/SMILEY.png);
+}
+h4::before {
+	content:url(../image/SMILEY2.png);
+}
+::marker{
+	color:red;
+}
+::selection{
+	color:pink;
+	font-size:20%;
+}
